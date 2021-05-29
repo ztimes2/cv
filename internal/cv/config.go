@@ -52,14 +52,16 @@ type Education struct {
 type SkillLevel int
 
 const (
+	SkillLevelBeginner LanguageLevel = 1
+
 	// SkillLevelBeginner indicates that a person can handle the basic features of
 	// the program, but can’t do complicated tricks or troubleshoot problems yet.
-	SkillLevelBeginner SkillLevel = 1
+	SkillLevelIntermediate
 
 	// SkillLevelIntermediate indicates that a person can also troubleshoot and do
 	// some fancy tricks, but might need to Google some functions or ask in forums
 	// from time to time.
-	SkillLevelIntermediate
+	SkillLevelAdvanced
 
 	// SkillLevelProficient indicates that a person is not yet an expert, but can
 	// handle advanced functions and troubleshoot problems by examining things on
@@ -80,10 +82,12 @@ type Skill struct {
 type LanguageLevel int
 
 const (
+	LanguageLevelBeginner LanguageLevel = 1
+
 	// LanguageLevelIntermediate indicates that a person can carry basic conversations
 	// in a wide variety of situations, but still makes grammar mistakes, and has
 	// limited working proficiency.
-	LanguageLevelIntermediate LanguageLevel = 1
+	LanguageLevelIntermediate
 
 	// LanguageLevelAdvanced indicates that a person is skilled enough to carry
 	// complex conversations but still puts in the conscious effort when speaking
