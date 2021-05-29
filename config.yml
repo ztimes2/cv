@@ -1,0 +1,155 @@
+first_name: John
+last_name: Doe
+occupation: Software Engineer
+location:
+  city: San Francisco
+  country: USA
+phone_number: +60123456789
+email: johndoe@example.com
+summary: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie, diam
+  non tempus vehicula, libero elit vestibulum nulla, eu sodales lacus urna id libero.
+  Sed imperdiet, lectus eget bibendum tincidunt, felis eros euismod lacus, eu sagittis
+  nisl nulla at ante. Integer id pellentesque enim, in molestie odio.
+links:
+  personal_website: https://example.com
+  github: https://github.com/johndoe
+  linkedin: https://linkedin.com/in/johndoe
+employment:
+  - job_title: Senior Software Engineer
+    employer: Hooli
+    since:
+      month: January
+      year: 2020
+    location:
+      city: San Francisco
+      country: USA
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie,
+      diam non tempus vehicula, libero elit vestibulum nulla, eu sodales lacus urna
+      id libero. Sed imperdiet, lectus eget bibendum tincidunt, felis eros euismod
+      lacus, eu sagittis nisl nulla at ante. Integer id pellentesque enim, in molestie
+      odio. Vivamus tristique, tortor ac posuere pulvinar, libero nulla congue velit,
+      at aliquam purus mauris eu enim. Aenean imperdiet orci ac risus pretium, vel
+      pretium nunc ullamcorper. Suspendisse sed euismod mi, ut luctus est. Mauris
+      mollis in velit vel vulputate. Nam quis felis pharetra tortor varius eleifend
+      porta sit amet nibh. Donec vitae velit leo. Nam ac nunc eu nisi varius ultrices
+      non id nunc. Quisque varius massa non est accumsan varius. Proin mi arcu, porta
+      eu venenatis a, posuere a tellus.
+
+  - job_title: Software Engineer
+    employer: Pied Piper
+    since:
+      month: January
+      year: 2015
+    until:
+      month: November
+      year: 2019
+    location:
+      city: San Francisco
+      country: USA
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie,
+      diam non tempus vehicula, libero elit vestibulum nulla, eu sodales lacus urna
+      id libero. Sed imperdiet, lectus eget bibendum tincidunt, felis eros euismod
+      lacus, eu sagittis nisl nulla at ante. Integer id pellentesque enim, in molestie
+      odio. Vivamus tristique, tortor ac posuere pulvinar, libero nulla congue velit,
+      at aliquam purus mauris eu enim. Aenean imperdiet orci ac risus pretium, vel
+      pretium nunc ullamcorper. Suspendisse sed euismod mi, ut luctus est. Mauris
+      mollis in velit vel vulputate. Nam quis felis pharetra tortor varius eleifend
+      porta sit amet nibh. Donec vitae velit leo. Nam ac nunc eu nisi varius ultrices
+      non id nunc. Quisque varius massa non est accumsan varius. Proin mi arcu, porta
+      eu venenatis a, posuere a tellus.
+
+  - job_title: Software Engineer Intern
+    employer: Aviato
+    since:
+      month: January
+      year: 2014
+    until:
+      month: November
+      year: 2014
+    location:
+      city: San Francisco
+      country: USA
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie,
+      diam non tempus vehicula, libero elit vestibulum nulla, eu sodales lacus urna
+      id libero. Sed imperdiet, lectus eget bibendum tincidunt, felis eros euismod
+      lacus, eu sagittis nisl nulla at ante. Integer id pellentesque enim, in molestie
+      odio. Vivamus tristique, tortor ac posuere pulvinar, libero nulla congue velit,
+      at aliquam purus mauris eu enim. Aenean imperdiet orci ac risus pretium, vel
+      pretium nunc ullamcorper. Suspendisse sed euismod mi, ut luctus est. Mauris
+      mollis in velit vel vulputate. Nam quis felis pharetra tortor varius eleifend
+      porta sit amet nibh. Donec vitae velit leo. Nam ac nunc eu nisi varius ultrices
+      non id nunc. Quisque varius massa non est accumsan varius. Proin mi arcu, porta
+      eu venenatis a, posuere a tellus.
+
+education:
+  - school: Massachusetts Institute of Technology
+    degree: Master's Degree in Computer Science
+    since:
+      month: January
+      year: 2011
+    until:
+      month: December
+      year: 2013
+    location:
+      city: Cambridge
+      country: USA
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie,
+      diam non tempus vehicula, libero elit vestibulum nulla, eu sodales lacus urna
+      id libero. Sed imperdiet, lectus eget bibendum tincidunt, felis eros euismod
+      lacus, eu sagittis nisl nulla at ante. Integer id pellentesque enim, in molestie
+      odio. Vivamus tristique, tortor ac posuere pulvinar, libero nulla congue velit,
+      at aliquam purus mauris eu enim. Aenean imperdiet orci ac risus pretium, vel
+      pretium nunc ullamcorper. Suspendisse sed euismod mi, ut luctus est. Mauris
+      mollis in velit vel vulputate. Nam quis felis pharetra tortor varius eleifend
+      porta sit amet nibh. Donec vitae velit leo. Nam ac nunc eu nisi varius ultrices
+      non id nunc. Quisque varius massa non est accumsan varius. Proin mi arcu, porta
+      eu venenatis a, posuere a tellus.
+
+  - school: Stanford University
+    degree: Bachelor's Degree in Computer Science
+    since:
+      month: January
+      year: 2007
+    until:
+      month: December
+      year: 2010
+    location:
+      city: Stanford
+      country: USA
+    description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie,
+      diam non tempus vehicula, libero elit vestibulum nulla, eu sodales lacus urna
+      id libero. Sed imperdiet, lectus eget bibendum tincidunt, felis eros euismod
+      lacus, eu sagittis nisl nulla at ante. Integer id pellentesque enim, in molestie
+      odio. Vivamus tristique, tortor ac posuere pulvinar, libero nulla congue velit,
+      at aliquam purus mauris eu enim. Aenean imperdiet orci ac risus pretium, vel
+      pretium nunc ullamcorper. Suspendisse sed euismod mi, ut luctus est. Mauris
+      mollis in velit vel vulputate. Nam quis felis pharetra tortor varius eleifend
+      porta sit amet nibh. Donec vitae velit leo. Nam ac nunc eu nisi varius ultrices
+      non id nunc. Quisque varius massa non est accumsan varius. Proin mi arcu, porta
+      eu venenatis a, posuere a tellus.
+
+skills:
+  - name: Go
+    level: 5
+
+  - name: HTML/CSS
+    level: 3
+
+  - name: JavaScript
+    level: 3
+
+languages:
+  - name: English
+    level: 5
+
+  - name: Spanish
+    level: 3
+
+  - name: Chinese
+    level: 2
