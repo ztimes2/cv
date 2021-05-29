@@ -1,51 +1,52 @@
 package cv
 
 type Config struct {
-	FirstName         string
-	LastName          string
-	Occupation        string
-	CurrentLocation   Location
-	PhoneNumber       string
-	Email             string
-	Summary           string
-	Links             Links
-	EmploymentHistory []Employment
-	EducationHistory  []Education
-	Skills            []Skill
+	FirstName         string       `yaml:"first_name"`
+	LastName          string       `yaml:"last_name"`
+	Occupation        string       `yaml:"occupation"`
+	Location          Location     `yaml:"location"`
+	PhoneNumber       string       `yaml:"phone_number"`
+	Email             string       `yaml:"email"`
+	Summary           string       `yaml:"summary"`
+	Links             Links        `yaml:"links"`
+	EmploymentHistory []Employment `yaml:"employment"`
+	EducationHistory  []Education  `yaml:"education"`
+	Skills            []Skill      `yaml:"skills"`
+	Languages         []Language   `yaml:"languages"`
 }
 
 type Location struct {
-	City    string
-	Country string
+	City    string `yaml:"city"`
+	Country string `yaml:"country"`
 }
 
 type Links struct {
-	PersonalWebsiteURL string
-	GithubURL          string
-	LinkedinURL        string
+	PersonalWebsiteURL string `yaml:"personal_website"`
+	GithubURL          string `yaml:"github"`
+	LinkedinURL        string `yaml:"linkedin"`
 }
 
 type Date struct {
-	Month int
-	Year  int
+	Month int `yaml:"month"`
+	Year  int `yaml:"year"`
 }
 
 type Employment struct {
-	JobTitle    string
-	Employer    string
-	Since       Date
-	Until       Date
-	Location    Location
-	Description string
+	JobTitle    string   `yaml:"job_title"`
+	Employer    string   `yaml:"employer"`
+	Since       Date     `yaml:"since"`
+	Until       Date     `yaml:"until"`
+	Location    Location `yaml:"location"`
+	Description string   `yaml:"description"`
 }
 
 type Education struct {
-	School      string
-	Degree      string
-	Since       Date
-	Until       Date
-	Location    Location
-	Description string
+	School      string   `yaml:"school"`
+	Degree      string   `yaml:"degree"`
+	Since       Date     `yaml:"since"`
+	Until       Date     `yaml:"until"`
+	Location    Location `yaml:"location"`
+	Description string   `yaml:"description"`
 }
 
 type SkillLevel int
@@ -53,7 +54,7 @@ type SkillLevel int
 const (
 	// SkillLevelBeginner indicates that a person can handle the basic features of
 	// the program, but can’t do complicated tricks or troubleshoot problems yet.
-	SkillLevelBeginner SkillLevel = 0
+	SkillLevelBeginner SkillLevel = 1
 
 	// SkillLevelIntermediate indicates that a person can also troubleshoot and do
 	// some fancy tricks, but might need to Google some functions or ask in forums
@@ -72,8 +73,8 @@ const (
 )
 
 type Skill struct {
-	Name  string
-	Level SkillLevel
+	Name  string     `yaml:"name"`
+	Level SkillLevel `yaml:"level"`
 }
 
 type LanguageLevel int
@@ -82,7 +83,7 @@ const (
 	// LanguageLevelIntermediate indicates that a person can carry basic conversations
 	// in a wide variety of situations, but still makes grammar mistakes, and has
 	// limited working proficiency.
-	LanguageLevelIntermediate LanguageLevel = 0
+	LanguageLevelIntermediate LanguageLevel = 1
 
 	// LanguageLevelAdvanced indicates that a person is skilled enough to carry
 	// complex conversations but still puts in the conscious effort when speaking
@@ -100,6 +101,6 @@ const (
 )
 
 type Language struct {
-	Name  string
-	Level LanguageLevel
+	Name  string        `yaml:"name"`
+	Level LanguageLevel `yaml:"level"`
 }
