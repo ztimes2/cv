@@ -56,3 +56,9 @@ ul {
     margin-bottom: 18px;
     font-size: 90%;
 }
+
+img.emoji {
+    height: 0.8em;
+    width: 0.8em;
+    margin: 0 .05em 0 .1em;
+ }
