@@ -1,0 +1,58 @@
+@font-face { 
+    font-family: Lato-Light; 
+    src: url('fonts/Lato-Light.ttf');
+}
+
+@font-face { 
+    font-family: Lato-Regular; 
+    src: url('fonts/Lato-Regular.ttf');
+}
+
+html *
+{
+    font-family: Lato-Light;
+    font-weight: normal;
+    text-align: justify;
+}
+
+h1, h2, h3, h4 {
+    font-family: Lato-Regular;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+div {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+ul {
+    margin-left: 6px
+}
+
+.date {
+    opacity: 0.5;
+    margin-top: -15px;
+    font-size: 90%;
+}
+
+.language-level {
+    margin-top: -20px;
+    opacity: 0.7;
+    font-size: 90%;
+}
+
+.skill-level {
+    margin-top: -20px;
+    opacity: 0.7;
+    font-size: 90%;
+}
+
+.employer, .school {
+    margin-top: -15px;
+    margin-bottom: 18px;
+    font-size: 90%;
+}
