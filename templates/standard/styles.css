@@ -33,21 +33,15 @@ ul {
     margin-left: 6px
 }
 
-.date {
-    margin-top: -15px;
-    font-size: 80%;
-}
-
-.language-level, .skill-level {
-    margin-top: -20px;
-    font-size: 80%;
-}
-
 .date, .language-level {
+    margin-top: -15px;
+    font-size: 90%;
     color:#8b8b8b;
 }
 
 .skill-level {
+    margin-top: -15px;
+    font-size: 80%;
     color: #808080;
 }
 
