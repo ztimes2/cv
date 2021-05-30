@@ -34,21 +34,21 @@ ul {
 }
 
 .date {
-    opacity: 0.5;
     margin-top: -15px;
-    font-size: 90%;
+    font-size: 80%;
 }
 
-.language-level {
+.language-level, .skill-level {
     margin-top: -20px;
-    opacity: 0.7;
-    font-size: 90%;
+    font-size: 80%;
+}
+
+.date, .language-level {
+    color:#8b8b8b;
 }
 
 .skill-level {
-    margin-top: -20px;
-    opacity: 0.7;
-    font-size: 90%;
+    color: #808080;
 }
 
 .employer, .school {
