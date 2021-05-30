@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- 
+        Converts emojis used in the page to images. This is necessary because the
+        WebKit that powers coversion from HTML to PDF does not recognize emojis
+        out of the box.
+    -->
+    <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?11.2"></script>
+    <script>window.onload = function () { twemoji.parse(document.body); }</script>
+</head>
+
+<body>
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col">
+                <h1>John Doe</h1>
+                <p class="fs-5 fw-lighter">Software Engineer</p>
+            </div>
+            <div class="col d-flex align-items-center">
+                <div class="">
+                    <div class="d-flex flex-row">
+                        <i class="bi bi-envelope me-3"></i>
+                        <p class="fs-6 fw-lighter mb-1">johndoe@example.com</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <i class="bi bi-telephone me-3"></i>
+                        <p class="fs-6 fw-lighter">+60123456789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

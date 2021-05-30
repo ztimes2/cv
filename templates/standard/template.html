@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?11.2"></script>
+    <script>window.onload = function () { twemoji.parse(document.body); }</script>
+</head>
+
+<body>
+    <div>
+        <h1>{{ .FullName }}</h1>
+        {{ .Occupation }}
+    </div>
+    <div>
+        <h2>👋 Summary</h2>
+        <div>
+            <p>{{ .Summary }}</p>
+        </div>
+    </div>
+    <div>
+        <h2>💼 Employment</h2>
+        {{ range .Employment }}
+        <div>
+            <h3>{{ .JobTitle }}</h3>
+            <p class="employer">{{ .Employer }}</p>
+            <p class="date">{{ .Period }}</p>
+            <p>{{ .Description }}</p>
+        </div>
+        {{ end }}
+    </div>
+    <div>
+        <h2>🎓 Education</h2>
+        {{ range .Employment }}
+        <div>
+            <h3>{{ .Degree }}</h3>
+            <p class="school">{{ .School }}</p>
+            <p class="date">{{ .Period }}</p>
+            <p>{{ .Description }}</p>
+        </div>
+        {{ end }}
+    </div>
+    <div>
+        <h2>🧠 Skills</h2>
+        <div>
+            {{ range .Skills }}
+            <h4>{{ .Name }}</h4>
+            <p class="skill-level">{{ .Level }}</p>
+            {{ range end }}
+        </div>
+    </div>
+    <div>
+        <h2>🗣 Languages</h2>
+        <div>
+            {{ range .Languages }}
+            <h4>{{ .Name }}</h4>
+            <p class="language-level">{{ .Level }}</p>
+            {{ end }}
+        </div>
+    </div>
+    <div>
+        <h2>📞 Contacts</h2>
+        <ul>
+            <li>{{ .Email }}</li>
+            <li>{{ .Phone }}</li>
+            <li>{{ .Location }}</li>
+        </ul>
+    </div>
+    <div>
+        <h2>🔗 Links</h2>
+        <ul>
+            <li>{{ .PersonalWebsite }}</li>
+            <li>{{ .GitHub }}</li>
+            <li>{{ .LinkedIn }}</li>
+        </ul>
+    </div>
+</body>
+
+</html>
