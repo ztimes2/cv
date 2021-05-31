@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="style.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -20,13 +22,13 @@
 </head>
 
 <body>
-    <div class="container pt-4">
+    <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col d-flex flex-column p-4">
                 <h1>John Doe</h1>
                 <p class="fs-5 fw-lighter">Software Engineer</p>
             </div>
-            <div class="col d-flex align-items-center">
+            <div class="col d-flex align-items-center flex-row-reverse p-4">
                 <div class="">
                     <div class="d-flex flex-row">
                         <i class="bi bi-envelope me-3"></i>
@@ -40,7 +42,47 @@
             </div>
         </div>
     </div>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-4 p-4">
+                <div class="d-flex flex-row pb-5">
+                    <div>
+                        🧠
+                    </div>
+                    <div>
+                        <h3 class="pb-2">Skills</h3>
+                        <p class="fw-light">Go</p>
+                        <p class="fw-light">HTML/CSS</p>
+                        <p class="fw-light">JavaScript</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row pb-5">
+                    <div>
+                        🗣
+                    </div>
+                    <div>
+                        <h3 class="pb-2">Languages</h3>
+                        <p class="fw-light">English</p>
+                        <p class="fw-light">Spanish</p>
+                        <p class="fw-light">Chinese</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 p-4">
+                <div class="d-flex flex-row pb-5">
+                    <div>
+                        💼
+                    </div>
+                    <div>
+                        <h3 class="pb-2">Employment</h3>
+                        <p class="fw-light">English</p>
+                        <p class="fw-light">Spanish</p>
+                        <p class="fw-light">Chinese</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
